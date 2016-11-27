@@ -1,0 +1,10 @@
+F:\C_SHARP\nhóm ttcsdl\TTCSDL_PM\TTCSDL_PM\TTCSDL_PM\bin\Debug\TTCSDL_PM.exe.config
+F:\C_SHARP\nhóm ttcsdl\TTCSDL_PM\TTCSDL_PM\TTCSDL_PM\bin\Debug\TTCSDL_PM.exe
+F:\C_SHARP\nhóm ttcsdl\TTCSDL_PM\TTCSDL_PM\TTCSDL_PM\bin\Debug\TTCSDL_PM.pdb
+F:\C_SHARP\nhóm ttcsdl\TTCSDL_PM\TTCSDL_PM\TTCSDL_PM\obj\Debug\TTCSDL_PM.csprojResolveAssemblyReference.cache
+F:\C_SHARP\nhóm ttcsdl\TTCSDL_PM\TTCSDL_PM\TTCSDL_PM\obj\Debug\TTCSDL_PM.Properties.Resources.resources
+F:\C_SHARP\nhóm ttcsdl\TTCSDL_PM\TTCSDL_PM\TTCSDL_PM\obj\Debug\TTCSDL_PM.csproj.GenerateResource.Cache
+F:\C_SHARP\nhóm ttcsdl\TTCSDL_PM\TTCSDL_PM\TTCSDL_PM\obj\Debug\TTCSDL_PM.exe
+F:\C_SHARP\nhóm ttcsdl\TTCSDL_PM\TTCSDL_PM\TTCSDL_PM\obj\Debug\TTCSDL_PM.pdb
+F:\C_SHARP\nhóm ttcsdl\TTCSDL_PM\TTCSDL_PM\TTCSDL_PM\obj\Debug\TTCSDL_PM.DangNhap.resources
+F:\C_SHARP\nhóm ttcsdl\TTCSDL_PM\TTCSDL_PM\TTCSDL_PM\obj\Debug\TTCSDL_PM.DangKy.resources
