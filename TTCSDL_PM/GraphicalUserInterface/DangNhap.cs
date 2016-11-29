@@ -30,9 +30,12 @@ namespace TTCSDL_PM
 
 		private void btnDangNhap_Click(object sender, EventArgs e)
 		{
+			
 			String taiKhoan = txbTaiKhoan.Text.ToString();
 			String matKhau = txbMatKhau.Text.ToString();
+			//if()
 			DangKy frm_dangky = new DangKy(this, taiKhoan, matKhau);
+			//frm_dangky.ShowDialog();
 			frm_dangky.Visible = true;
 			this.Visible = false;
 

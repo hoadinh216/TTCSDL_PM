@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TTCSDL_PM.Object
+namespace TTCSDL_PM.DataTransferObject
 {
 	public class GiaoVien
 	{
@@ -27,5 +27,9 @@ namespace TTCSDL_PM.Object
 		public String BoMonMa{get;set;}
 		public String Email { get; set; }
 
+		public void setGiaoVien(String taiKhoan, String matKhau)
+		{
+
+		}
 	}
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TTCSDL_PM.Object
+namespace TTCSDL_PM.DataTransferObject
 {
 	class DangKy
 	{

@@ -44,29 +44,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller\KetNoiSQL.cs" />
-    <Compile Include="Model\HuyDangKy.cs" />
-    <Compile Include="Model\LopHocPhan.cs" />
-    <Compile Include="View\DangNhap.cs">
+    <Compile Include="BusinessLogicLayer\DangKyBLL.cs" />
+    <Compile Include="DataAccessLayer\DangKyDAL.cs" />
+    <Compile Include="DataAccessLayer\dbConnection.cs" />
+    <Compile Include="DataTransferObject\HuyDangKyDTO.cs" />
+    <Compile Include="DataTransferObject\LopHocPhanDTO.cs" />
+    <Compile Include="GraphicalUserInterface\DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\DangNhap.Designer.cs">
+    <Compile Include="GraphicalUserInterface\DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\DangKy.cs">
+    <Compile Include="GraphicalUserInterface\DangKy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\DangKy.Designer.cs">
+    <Compile Include="GraphicalUserInterface\DangKy.Designer.cs">
       <DependentUpon>DangKy.cs</DependentUpon>
     </Compile>
-    <Compile Include="Model\DangKy.cs" />
-    <Compile Include="Model\GiaoVien.cs" />
+    <Compile Include="DataTransferObject\DangKyDTO.cs" />
+    <Compile Include="DataTransferObject\GiaoVienDTO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="View\DangNhap.resx">
+    <EmbeddedResource Include="GraphicalUserInterface\DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\DangKy.resx">
+    <EmbeddedResource Include="GraphicalUserInterface\DangKy.resx">
       <DependentUpon>DangKy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
