@@ -46,7 +46,7 @@
   <ItemGroup>
     <Compile Include="BusinessLogicLayer\DangKyBLL.cs" />
     <Compile Include="DataAccessLayer\DangKyDAL.cs" />
-    <Compile Include="DataAccessLayer\dbConnection.cs" />
+    <Compile Include="DataAccessLayer\ConnectionDAL.cs" />
     <Compile Include="DataTransferObject\HuyDangKyDTO.cs" />
     <Compile Include="DataTransferObject\LopHocPhanDTO.cs" />
     <Compile Include="GraphicalUserInterface\DangNhap.cs">

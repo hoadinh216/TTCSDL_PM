@@ -11,19 +11,13 @@ using TTCSDL_PM.DataTransferObject;
 using System.Configuration;
 namespace TTCSDL_PM.Model
 {
-	public class KetNoiSQL
+	public class DangKyBLL
 	{
 		DangKyDAL dal = new DangKyDAL();
-		//public DangKyDAL[] HienThiDanhSach()
-		//{
-		//	DangKyDAL[] list;
-		//	DataTable table = null;
-
-		//	int n = 0;
-
-			
-		//	return null;
-		//}
+		public DangKyDTO[] getList()
+		{
+			return dal.GetList();
+		}
 		public bool Them(DangKy dangky)
 		{
 			return false;
@@ -35,28 +29,5 @@ namespace TTCSDL_PM.Model
 		
 	}
 
-	class DataHelper
-	{
-		private static SqlConnection _connection= null;
-		public DataHelper()
-		{
-			//var connStr = confi ConfigurationManager.AppSettings["ConnectionString"];
-			String connStr = "";
-			_connection = new SqlConnection(connStr);
-		}
-		/// <summary>
-		/// execute select query
-		/// </summary>
-		/// <param name="query">a string of select query</param>
-		/// <returns></returns>
-		public DataTable ExecuteQuery(string query)
-		{
-			//to do something
-			return null;
-		}
-		public void ExecuteNonQuery(string query)
-		{
-		
-		}
-	}
+	
 }

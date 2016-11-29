@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TTCSDL_PM.DataTransferObject
 {
-	class HuyDangKy
+	public class HuyDangKyDTO
 	{
 		public String Ma { get; set; }
 		public String DangKyMa { get; set; }

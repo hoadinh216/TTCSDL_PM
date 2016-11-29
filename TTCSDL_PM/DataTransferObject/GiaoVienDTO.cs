@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TTCSDL_PM.DataTransferObject
 {
-	public class GiaoVien
+	public class GiaoVienDTL
 	{
 		public String Ma { get; set; }
 		public String HoTen { get; set; }

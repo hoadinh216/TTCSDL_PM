@@ -9,12 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TTCSDL_PM.DataTransferObject;
+using TTCSDL_PM.Model;
 
 namespace TTCSDL_PM
 {
 	public partial class DangKy : Form
 	{
 		Form frm_dangnhap;
+		DangKyBLL bll = new DangKyBLL();
 		public DangKy(Form frm_dangnhap, String taiKhoan, String MatKhau)
 		{
 			InitializeComponent();
@@ -24,9 +26,13 @@ namespace TTCSDL_PM
 
 		private void DangKy_Load(object sender, EventArgs e)
 		{
-
+			LoadData();
 		}
 
+		void LoadData()
+		{
+			dgvDangKy.DataSource = bll.getList();
+		}
 		private void btnTimKiem_Click(object sender, EventArgs e)
 		{
 
